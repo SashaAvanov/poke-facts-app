@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body * {
+  text-align: center;
+}
+
+body {
+  margin-top: 50px;
+  height: 90vh;
+}
+
+form {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 150px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.form, .infoContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.form {
+  height: 10%;
+}
+
+.infoContainer {
+  height: 20%;
+}
+
+.spriteContainer {
+  height: 70%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* @media screen and (max-width: 490px) {
+  img {
+    height: 135px;
+  }
+} */
