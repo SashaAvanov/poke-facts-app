@@ -22,7 +22,7 @@ function getFetch(){
         if (type === 'electric') {
           body.style.backgroundColor = 'rgb(250, 252, 88)'
         } else if (type === 'fire') {
-          body.style.backgroundColor = 'red'
+          body.style.backgroundColor = 'rgb(180, 35, 35)'
         } else if (type === 'normal' || type === 'steel') {
           body.style.backgroundColor = 'lightgrey'
         } else if (type === 'grass' || type === 'bug') {
