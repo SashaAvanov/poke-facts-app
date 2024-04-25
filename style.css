@@ -62,15 +62,23 @@ img {
 }
 
 .form {
-  height: 10%;
+  height: 85px; 
 }
 
 .infoContainer {
-  height: 20%;
+  height: 165px; 
 }
 
 .spriteContainer {
-  height: 70%;
+  height: 575px; 
+}
+
+.infoContainer *, .spriteContainer > h3 {
+  margin: 8px;
+}
+
+.typeContainer > span {
+  margin: 8px 0;
 }
 
 /******************************************
@@ -81,4 +89,9 @@ img {
   img {
     height: 135px;
   }
+  
+  .infoContainer {
+    height: 155px;
+  }
 }
+
