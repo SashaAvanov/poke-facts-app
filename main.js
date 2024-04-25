@@ -1,5 +1,14 @@
 //Example fetch using pokemonapi.co
-document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('button').addEventListener('click', getFetch);
+
+const input = document.getElementById('input');
+
+input.addEventListener("keydown", (ev) => {
+  if (ev.key === "Enter" || ev.key === "Return") {
+    ev.preventDefault();
+    document.getElementById('button').click();
+  }
+});
 
 function getFetch(){
   const choice = document.querySelector('input').value
