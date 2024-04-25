@@ -4,7 +4,7 @@ document.querySelector('button').addEventListener('click', getFetch);
 const input = document.getElementById('input');
 
 input.addEventListener("keydown", (ev) => {
-  if (ev.key === "Enter" || ev.key === "Return" || ev.key === "ENTER" || ev.key === "RETURN") {
+  if (ev.key === "Enter") {
     ev.preventDefault();
     document.getElementById('button').click();
   }
