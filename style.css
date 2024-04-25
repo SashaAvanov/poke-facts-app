@@ -76,12 +76,4 @@ img {
   img {
     height: 135px;
   }
-
-  h1 {
-    font-size: 3rem;
-  }
-  
-  h2, h3, span {
-    font-size: 2.7rem;
-  }
 }
