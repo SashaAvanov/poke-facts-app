@@ -22,8 +22,9 @@ h2, h3, span {
   font-size: 1.7rem;
 }
 
-input[type="text"], input[type="button"] {
-  font-size: 1rem;
+input[type="text"], button {
+  font-family: sans-serif;
+  font-size: 1.7rem;
 }
 
 /******************************************
