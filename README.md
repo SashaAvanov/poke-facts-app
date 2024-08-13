@@ -1,6 +1,6 @@
 # Pokémon Facts App
 Look up any Pokémon and see its sprite and shiny sprites from the videogames and its base type. This app uses the PokéAPI (https://pokeapi.co/docs/v2) to retrieve Pokémon data. 
-Check it out here: https://pokefactsapp.netlify.app/
+Check out the app here: https://pokefactsapp.netlify.app/
 
 # Tech Used
 HTML, CSS, and JS
