@@ -1,0 +1,16 @@
+{
+  "name": "poke-facts-app",
+  "version": "1.0.0",
+  "description": "Look up any Pokémon and see its sprite and shiny sprites from the videogames and its base type. This app uses the PokéAPI (https://pokeapi.co/docs/v2) to retrieve Pokémon data.  Check out the app here: https://pokefactsapp.netlify.app/",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

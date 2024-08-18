@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="PokeFacts" content="Basic fact search for Pokemon">
+    	<meta name="keywords" content="pokemon, facts, app">
+		<meta name="viewport" content="width=device width, initial-scale=1">
+
+		<title>PokeFacts</title>
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section class="form">
+			<h1>PokéFacts</h1>
+			<form action="/getPokemon" method="GET">
+				<input type="text" name="input" id="input" placeholder="Pokémon name">
+				<button type="submit" name="button" id="button">Get Info</button>
+			</form>
+		</section>
+
+		<% if (message !== null) { %>
+			<span class="errorMessage"><%= message%></span>
+		<% } %>
+		
+	</body>
+</html>
